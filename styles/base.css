@@ -1,14 +1,33 @@
 
 body {
     font-family: "Roboto Condensed", sans-serif;
+    justify-content: space-between;
+    
 }
 
+
+header {
+    background-color: cornflowerblue;
+    margin: auto;
+    
+}
+header h1{
+   
+   align-items: center;
+    
+}
 nav {
     margin: 0 auto;
+    background-color: aqua;
 }
 
 nav a{
     display: block;
+}
+
+nav a:hover{
+    border: 1px solid;
+    text-decoration: overline;
 }
 
 nav ul {
@@ -18,4 +37,8 @@ nav ul {
 
 nav ul li {
     flex: 1 1 100%;
+}
+
+.home-grid{
+    background-color: blueviolet;
 }
