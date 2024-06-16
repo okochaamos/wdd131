@@ -1,0 +1,21 @@
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav a{
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}

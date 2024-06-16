@@ -4,44 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
-    <link type="text/css" rel="stylesheet href" href="styles/layout.css">
+    <title>WDD 131 - Web Development Fundamentals - Okocha Amos Mba</title>
+    <link type="text/css" rel="stylesheet href" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">Liinkedin</a>
-        <a href="my-scriptures.html">My Scriptures</a>
-        <a href="my-project.html">My Project</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.linkedin.com/in/amosokocha/">Linkedin</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/4?lang=eng#title_number1">My Scriptures</a></li>
+            <li><a href=#"my-project.html">My Project</a></li>
+        </ul>
     </nav>
-    <div class="container">
-        <h1>WDD 131: Web Development Fundamental - Okocha Amos Mba </h1>
+    <main class = "home-grid">
+        <section class="card">
+            <h1>WDD 131: Web Development Fundamental - Okocha Amos Mba </h1>
 
-    </div>
-    <div class="myself">
-        <img class="my-pic" src="images/my-profile-pic.jfif" alt="image for homepage">
-        <h2>About Me</h2>
-        I am Okocha Amos Mba. You can call me Amos. I am married with two kids, Bryan and Jane. I am a Igbo man from
-        South-Eastern part of Nigeria where I reside and do my business and work. I deal on elecronics as well work as a
-        business
-        development manager with one of the new and emerging fintech, Moniepoint Microfinance Bank. I love the game of
-        football, boxing and mixed martial arts and world news.
+        </section>
+        <section class="myself">
+            <img class="my-pic" src="images/picture.jfif" alt="image for homepage">
+            <h2>About Me</h2>
+            I am Okocha Amos Mba. You can call me Amos. I am married with two kids, Bryan and Jane. I am a Igbo man from
+            South-Eastern part of Nigeria where I reside and do my business and work. I deal on elecronics as well work as a
+            business
+            development manager with one of the new and emerging fintech, Moniepoint Microfinance Bank. I love the game of
+            football, boxing and mixed martial arts and world news.
 
-    </div>
-
-    <div class="myskills"> 
-        <h3>My Skills</h3>
-        Python
-        JavaScript
-        HTML
-        C-Sharp
-        Amazon Web Services
+        <section>
     
-    </div>
+
+        <section class="myskills"> 
+            <h3>My Skills</h3>
+            Python
+            JavaScript
+            HTML
+            C-Sharp
+            Amazon Web Services
+        
+        </section>
+    </main>
 
     <footer>
-        <p>Copyright 2024 - Okocha Amos Mba - Nigeria</p>
+        <p><span id="currentyear"></span> Okocha Amos Mba - Nigeria</p>
+        <p><span id="lastmodified"></span> </p>
+
     </footer>
 </body>
 
