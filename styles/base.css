@@ -1,15 +1,50 @@
 
+
+    
+
+
+
+
 body {
     font-family: "Roboto Condensed", sans-serif;
     justify-content: space-between;
-    
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    max-width: 100%;
 }
 
 
 header {
     background-color: cornflowerblue;
-    margin: auto;
+    text-align: center;
+    grid-column: 1 / 4;
+    width: 100%;
+
+       
+}
+.card{
+    grid-column: 1 / 2;
+   
+    text-align: center;
+    width: 100%;
+    background-color: darkturquoise;
+
+}
+
+.mypic{
+    grid-column: 2/3;
+    width: 100%;
+    padding-left: 50px;
     
+
+
+}
+
+.myskills{
+    grid-column: 3/4;
+    
+    width: 100%;
+    background-color: darkturquoise;
 }
 header h1{
    
@@ -36,9 +71,15 @@ nav ul {
 }
 
 nav ul li {
-    flex: 1 1 100%;
+    flex:  100%;
 }
 
-.home-grid{
-    background-color: blueviolet;
+
+
+footer{
+    background-color: cornflowerblue;
+    font-size: 2rem;
+    max-width:  100%;
+    text-align: center;
+    grid-column: 1 / 4;
 }
