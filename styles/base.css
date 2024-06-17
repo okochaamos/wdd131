@@ -28,6 +28,7 @@ header {
     text-align: center;
     width: 100%;
     background-color: darkturquoise;
+    justify-content: space-between;
 
 }
 
@@ -35,6 +36,7 @@ header {
     grid-column: 2/3;
     width: 100%;
     padding-left: 50px;
+    justify-content: space-between;
     
 
 
@@ -45,6 +47,7 @@ header {
     
     width: 100%;
     background-color: darkturquoise;
+    justify-content: space-between;
 }
 header h1{
    
