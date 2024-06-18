@@ -6,6 +6,6 @@ let lastModif = alert(document.lastModified);
 
 lastModif = documemt.querySelector("#lastModified");
 
-currentyear.innerHTML = 
+
 
 
