@@ -43,6 +43,10 @@ main{
 
 }
 
+.my-pic{
+    justify-content: top;
+}
+
 
 h1{
     color: white;
@@ -57,27 +61,31 @@ h1{
 
 nav {
     margin: 0 auto;
-    color: white;
+    
+    background-color: lightblue;
 
 }
 
 nav a{
-    color: white;
+    color: black;
 }
 
 nav a:hover{
     border: 1px solid;
-    color: white;
+    color:royalblue;
+    
 }
 
 nav ul {
     display: flex;
-    color: white;
+    color: black;
+   
     
 }
 
 nav ul li {
     flex:  100%;
+    display: block;
 }
 
 
@@ -102,4 +110,10 @@ img{
 }
 .myskills{
     text-align: center;
+}
+
+.Nigeria{
+    width: 50px;
+    height: 50px;
+
 }
