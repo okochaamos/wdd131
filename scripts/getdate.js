@@ -1,10 +1,13 @@
 const today = new Date();
 
-const currentYear = document.querySelector("#currentYear");
+let lastModified = "";
 
-let lastModif = alert(document.lastModified);
+document.getElementById("currentyear").innerHTML = today;
 
-lastModif = documemt.querySelector("#lastModified");
+lastModified = `Last modified ${today}`;
+console.log(lastModified);
+
+
 
 
 

@@ -51,12 +51,14 @@ main{
 h1{
     color: white;
     align-items: center;
+    
    
     
 }
 
 .profile h2, h3{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -110,6 +112,10 @@ img{
 }
 .myskills{
     text-align: center;
+}
+
+.myskills h2{
+    font-size: 1.5rem;
 }
 
 .Nigeria{
