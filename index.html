@@ -32,44 +32,81 @@
         </nav>
 
     </header>
-    </p>
+    
     <main>
 
 
         <section class="profile">
-            <h2>About Me</h2>
-            <p>I am Okocha Amos Mba. You can call me Amos. I am married with two kids, Bryan and Jane. I am a Igbo man
-                from
-                Aba, South-Eastern part of Nigeria where I reside and do my business and work. I deal on elecronics as
-                well work as a
-                business development manager with one of the new and emerging fintech, Moniepoint Microfinance Bank. I
-                love the game of
-                football, boxing and mixed martial arts and world news.</p>
+            <div class="aboutme">
+                <section class="whom">
 
-            <h3><img class="Nigeria" src="images/nigeria flag1.jpg">Aba - Nigeria</h3>
-            <p>Aba is a major city located in Abia State, Nigeria. It is one of the largest commercial
-                and industrial centers in the state and the entire southeastern region of Nigeria. Aba is
-                made up of many villages such as; Aba-Ukwu, Eziukwu-Aba, Obuda-Aba, Umuokpoji-Aba, and
-                other villages from Ohazu merged due to administrative convenience. Aba is known for its
-                vibrant business environment, especially in the areas of trade and manufacturing.</p>
-            <p>The city is often referred to as the "Japan of Africa" due to its significant role in the
-                Nigerian economy. It's a bustling commercial hub where you can find a wide variety of goods,
-                including textiles, footwear, leather products, and more. The city is famous for its thriving
-                markets and business activities.</p>
+                    <h2>About Me</h2>
+
+                </section>
+                <section class="story">
+                    <p>I am Okocha Amos Mba. You can call me Amos. I am married with two kids, Bryan and Jane. I am a
+                        Igbo man
+                        from Aba, South-Eastern part of Nigeria where I reside and do my business and work. I deal on
+                        elecronics as
+                        well work as a business development manager with one of the new and emerging fintech, Moniepoint
+                        Microfinance Bank. I
+                        love the game of football, boxing and mixed martial arts and world news.</p>
+
+                </section>
+                <section class="my-pic">
+                    <img src="images/picture.jfif" alt="image for homepage">
+
+                </section>
+
+            </div>
+
+            <div class="aba">
+                <section class="mytown">
+                    <h3>Aba - Nigeria</h3>
+
+                </section>
+                <section class="tori">
+                    <p>Aba is a major city located in Abia State, Nigeria. It is one of the largest commercial
+                        and industrial centers in the state and the entire southeastern region of Nigeria. Aba is
+                        made up of many villages such as; Aba-Ukwu, Eziukwu-Aba, Obuda-Aba, Umuokpoji-Aba, and
+                        other villages from Ohazu merged due to administrative convenience. Aba is known for its
+                        vibrant business environment, especially in the areas of trade and manufacturing.</p>
+                    <p>The city is often referred to as the "Japan of Africa" due to its significant role in the
+                        Nigerian economy. It's a bustling commercial hub where you can find a wide variety of goods,
+                        including textiles, footwear, leather products, and more. The city is famous for its thriving
+                        markets and business activities.</p>
+
+                </section>
+
+                <section class="Niger">
+                    <img src="images/nigeria flag1.jpg">
+                    <p>Official flag of Nigeria</p>
+
+                </section>
+
+
+
+            </div>
+
         </section>
-        <section>
-            <img class="my-pic" src="images/picture.jfif" alt="image for homepage">
-        </section>
+
 
 
         <section class="myskills">
-            <h2>My Skills</h2>
-            <p>Python</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>C-Sharp</p>
-            <p>Web Services</p>
+            <section class="heading">
+                <h2>My Skills</h2>
+            </section>
 
+            <section class="division">
+                <p>Python</p>
+                <p>JavaScript</p>
+                <p>HTML</p>
+                <p>C-Sharp</p>
+                <p>Web Services</p>
+
+            </section>
+
+           
         </section>
 
     </main>
@@ -78,11 +115,14 @@
 
     <footer>
         <p>&#169 2024 - Okocha Amos Mba - Nigeria</p>
-        <p id="lastmodified">
+        <p id="lastmod">
             <script>
-                const today = new Date();
+                
+                const date = new Date(document.lastModified);
+                
+  
 
-                document.getElementById("lastmodified").innerHTML = today;
+                document.getElementById("lastmod").innerHTML = date;
 
 
             </script>

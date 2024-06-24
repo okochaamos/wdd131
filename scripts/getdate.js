@@ -1,11 +1,7 @@
-const today = new Date();
 
-let lastModified = "";
+let oLastModif = new Date(document.lastModified);
+document.getElementById("currentyear").innerHTML = oLastModif;
 
-document.getElementById("currentyear").innerHTML = today;
-
-lastModified = `Last modified ${today}`;
-console.log(lastModified);
 
 
 
