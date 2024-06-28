@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link type="text/css" rel="stylesheet href" href="styles/temples.css">
-    <link type="text/css" rel="stylesheet href" href="styles/temples-large.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 480px)" href="styles/temples.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 701px)" href="styles/temples-large.css">
     <script src="scripts/temples.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,21 +16,28 @@
     <header>
         <h1>Temple Album</h1>
         <nav>
-            <ul>
+            <ul class="myLinks">
                 <li><a href="#index.html">Home</a></li>
                 <li><a href="#old-temples.html">Old</a></li>
                 <li><a href="#new-temples.html">New</a></li>
                 <li><a href="#large-temples.html">Large</a></li>
                 <li><a href="#small-temples.html">Small</a></li>
             </ul>
+            <a href="javacript:void(0);" onclick="myFunction()">
+
+                <i class="fa fa-bars"></i>
+
+            </a>
         </nav>
 
     </header>
 
     <main>
+        <h2>Home</h2>
         <section>
+            
             <figure >
-                
+                                
                 <img class="aba-temple" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/1280x800/aba-nigeria-temple-lds-273999-wallpaper.jpg">
                 <figcaption>Aba Nigeria Temple</figcaption>
             </figure>
@@ -107,5 +114,18 @@
 
 
     </footer>
+
+    <script>
+        function myFunction (){
+        var x = document.getElementById("nyLinks");
+        if(x.style.display ==="block") {
+        x.style.display = "none";
+
+        }else {
+        x.style.display = "block;"
+        }
+    
+    }
+    </script>
 </body>
 </html>

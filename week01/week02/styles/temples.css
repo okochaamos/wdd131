@@ -1,48 +1,89 @@
 body{
     font-family: "Roboto Condensed", sans-serif;
+    font-size: 1 rem;
+    background-color: lightblue;
 }
-section {
-    margin: 1rem auto; 
-    max-width: 600px;
+
+nav ul li {
+    flex:  100%;
+    display: block;
 }
+
+nav a:hover{
+    border: 1px solid;
+    color:lightblue;
+
+   
+    
+}
+nav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a.icon {
+    background: black;
+    display: block;
+    position:absolute;
+    right:  0;
+    top: 0;
+}
+
+
 
 
 header{
-    max-width: 640px;
+    max-width: 550px;
     margin: 1rem;
     border: 5px;
     padding: 5px;
-    background-color:lightblue;
+    background-color:lightslategray;
 }
 
 main{
     display: block;
-    max-width: 640px;
+    max-width: 550px;
     margin: auto;
     border: 5px;
     padding: 5px;
     background-color:lightblue;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 9 fr;
     grid-gap: 1rem;
     align-items: center;
 
 }
-
-footer{
-    max-width: 640px;
-    margin: 1rem;
-    border: 5px;
-    padding: 5px;
-    background-color:lightblue;
+h2{
+    text-align: center;
+    grid-row: 1/2;
 }
+
 section{
     align-self: center;
     background-color: lightcyan;
 
-
+    margin: 1rem auto; 
+    max-width: 520px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
 }
+
+footer{
+    max-width: 550px;
+    margin: 1rem;
+    border: 5px;
+    padding: 5px;
+    background-color:lightslategray;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
 
 
 figcaption{
@@ -50,7 +91,8 @@ figcaption{
 }
 
 img{
-    width: 600px;
+    width: 300px;
+    height: 300px;
 }
 
 img .aba-temple{
@@ -92,4 +134,10 @@ img .idaho{
 img .oakland{
     grid-column: 1/2;
     grid-row: 9/10;
+}
+img{
+    width : 300px;
+}
+h1{
+    font-size: 3rem;
 }

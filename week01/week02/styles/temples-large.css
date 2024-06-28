@@ -70,6 +70,9 @@ main{
     padding: 5px;
     background-color:lightblue;
     align-items: center;
+    display: grid;
+    grid-template-rows: 0.5fr 3.5fr;
+
    
     
    
@@ -92,11 +95,15 @@ section{
     background-color: lightslategray;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1f 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
     grid-gap: 1rem;
     margin-left: 30px;
     color: white;
-
+    grid-row: 2/3;
+}
+h2{
+    text-align: center;
+        grid-row: 1/2;
 }
 
 img .aba-temple{
@@ -145,3 +152,4 @@ img{
 h1{
     font-size: 3rem;
 }
+
