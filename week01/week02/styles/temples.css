@@ -63,13 +63,14 @@ h2{
 
 section{
     align-self: center;
-    background-color: lightcyan;
-
+    background-color: lightslategray;
     margin: 1rem auto; 
     max-width: 520px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: white;
     
 }
 
@@ -140,4 +141,8 @@ img{
 }
 h1{
     font-size: 3rem;
+}
+h1{
+    color: white;
+    
 }
