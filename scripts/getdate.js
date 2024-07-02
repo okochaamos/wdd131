@@ -1,6 +1,6 @@
 
-let oLastModif = new Date(document.lastModified);
-document.getElementById("currentyear").innerHTML = oLastModif;
+const date = new Date(document.lastModified);
+document.getElementById("lastmod").innerHTML = `Last modified: ${date}`;
 
 
 

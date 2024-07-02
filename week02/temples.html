@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link type="text/css" rel="stylesheet" media="screen and (min-width: 480px)" href="styles/temples.css">
-    <link type="text/css" rel="stylesheet" media="screen and (min-width: 701px)" href="styles/temples-large.css">
+    <title>Web Development Fundamental - Okocha Amos Mba</title>
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/temples.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 600px)" href="styles/temples-large.css">
     <script src="scripts/temples.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +15,26 @@
 <body> 
     <header>
         <h1>Temple Album</h1>
-        <nav>
-            <ul class="myLinks">
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="#old-temples.html">Old</a></li>
-                <li><a href="#new-temples.html">New</a></li>
-                <li><a href="#large-temples.html">Large</a></li>
-                <li><a href="#small-temples.html">Small</a></li>
-            </ul>
-            <a href="javacript:void(0);" onclick="myFunction()">
 
-                <i class="fa fa-bars"></i>
-
-            </a>
-        </nav>
-
+        <div id="hamburger-menu">
+            <button class="hamburger-button"> ☰ 
+                <nav>
+                    <ul class="myLinks">
+                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="#old-temples.html">Old</a></li>
+                        <li><a href="#new-temples.html">New</a></li>
+                        <li><a href="#large-temples.html">Large</a></li>
+                        <li><a href="#small-temples.html">Small</a></li>
+                    </ul>
+                
+    
+                
+                </nav>
+                
+            </button>
+    
+         </div>
+        
     </header>
 
     <main>
@@ -99,33 +104,12 @@
     
     <footer>
         <p>&#169 2024 - Okocha Amos Mba - Nigeria</p>
-        <p id="lastmod">
-            <script>
-                
-                const date = new Date(document.lastModified);
-                
-  
-
-                document.getElementById("lastmod").innerHTML = date;
-
-
-            </script>
-        </p>
+        <p id="lastmod"></p>
 
 
     </footer>
 
-    <script>
-        function myFunction (){
-        var x = document.getElementById("nyLinks");
-        if(x.style.display ==="block") {
-        x.style.display = "none";
-
-        }else {
-        x.style.display = "block;"
-        }
-    
-    }
+   
     </script>
 </body>
 </html>

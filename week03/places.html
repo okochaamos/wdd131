@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Fundamental - Okocha Amos Mba</title>
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 480px)" href="styles/places.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 701px)" href="styles/places-large.css">
+    <script src="scripts/places.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+
+    </header>
+    <main>
+        <div class="zuma-rock">
+            <section> 
+                <img src="images/zuma-rock.webp">
+
+            </section>
+        </div>
+
+        <div>
+            <section class="data">
+                <h2>Data</h2>
+                <p>        Area: 923,768 km2</p>
+                <p>  Population: 218.5 million</p>
+                <p>     Capital: Abuja</p>
+                <p>   Languages: Igbo, Hausa, Yoruba, English</p>
+                <p>    Currency: Naira</p>
+                <p>   Time Zone: UTC+1</p>
+                <p>Calling Code: +234</p>
+                <p>Internet TLD: .ng</p>
+
+            </section>
+
+            <section class="weather-info">
+                <h2>Weather</h2>
+                <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>&#169 2024 - Okocha Amos Mba - Nigeria</p>
+        <p id="lastmod">
+            <script>
+                
+                const date = new Date(document.lastModified);
+                
+  
+
+                document.getElementById("lastmod").innerHTML = date;
+
+
+            </script>
+        </p>
+
+    </footer>
+</body>
+</html>

@@ -7,7 +7,7 @@
 body{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1 rem;
-    background-color: lightblue;
+    background-color:white;
 }
 
 
@@ -18,7 +18,7 @@ nav ul li {
 
 nav a:hover{
     border: 1px solid;
-    color:lightblue;
+    color:wheat;
 }
 nav ul {
     display: flex;
@@ -31,9 +31,9 @@ nav a{
 }
 
 nav {
+
     margin: 0 auto;
-    
-    
+      
     width: 1000px;
     margin-top: 40px;
 
@@ -44,9 +44,11 @@ header{
     margin: 1rem;
     border: 5px;
     padding: 5px;
-    background-color:lightslategray;
+    
     text-align: left;
     display: flex;
+    border-style: groove;
+    background-color:navy;
     
     
     
@@ -60,15 +62,16 @@ h1 {
   }
 h1{
     color: white;
+    margin-left: 10px;
     
 }
 
 main{
     min-width: 1300px;
     margin: 1rem;
-    border: 5px;
+    border: px;
     padding: 5px;
-    background-color:lightblue;
+    background-color:white;
     align-items: center;
     display: grid;
     grid-template-rows: 0.5fr 3.5fr;
@@ -83,27 +86,30 @@ footer{
     margin: 1rem;
     border: 5px;
     padding: 5px;
-    background-color:lightslategray;
+    background-color:white;
     text-align: center;
     font-size: 2rem;
     color: white;
+    border-style: groove;
+    background-color: navy;
 }
 
 section{
     min-width: 1200px;
     padding: 1rem;
-    background-color: lightslategray;
+    background-color:white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:  1fr 1fr 1fr;
-    grid-gap: 1rem;
-    margin-left: 30px;
-    color: white;
+    text-align: center;
+    color: black;
     grid-row: 2/3;
+    font-size: 1.5rem;
 }
 h2{
     text-align: center;
-        grid-row: 1/2;
+    grid-row: 1/2;
+    font-size: 2rem;
 }
 
 img .aba-temple{
@@ -147,9 +153,17 @@ img .oakland{
     grid-row: 3/4;
 }
 img{
-    width : 300px;
+    width : 100%;
 }
 h1{
     font-size: 3rem;
 }
-
+.hamburger-button {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: right;
+    margin-top: 30px;
+ }
