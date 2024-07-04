@@ -23,3 +23,6 @@ header{
 .data{
     border-style:groove;
 }
+.weather-info{
+    border-style: groove;
+}

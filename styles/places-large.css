@@ -1,0 +1,105 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1 rem;
+    text-align: center;
+    background-color:white;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+
+.zuma-rock{
+    grid-column: 1/19;
+    grid-row: 1/11;
+    z-index: 0;
+    
+    
+
+}
+.data{
+    grid-row: 4/9;
+    grid-column:2/5;
+    z-index: 1;
+    padding-left: 10px;
+    background-color: white;
+    
+    vertical-align: middle;
+    
+
+}
+.data h2{
+    background-color: green;
+    color: white;
+    
+}
+
+.weather-info p{
+    vertical-align: middle;
+
+}
+.data p{
+    vertical-align: middle;
+}
+
+.zuma-rock img{
+    grid-column: 1/19;
+    grid-row: 1/11;
+}
+
+.weather-info{
+    grid-row: 7/10;
+    grid-column: 14/18;
+    z-index: 1;
+    padding-right: 10px;
+    background-color: white;
+    
+    vertical-align: middle;
+
+}
+.weather-info h2{
+    background-color: green;
+    color: white;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+footer{
+    
+    margin: 1rem;
+    border: 5px;
+    padding: 5px;
+   
+    font-size: 2rem;
+    background-color: green;
+    min-width: 1300px;
+
+    
+}
+header{
+    background-color: green;
+    min-width: 1300px;
+    margin: 1rem;
+    border: 5px;
+    padding: 5px;
+    
+}
+
+
+
+h1{
+    text-align: center;
+
+}
+
+.data{
+    border-style:groove;
+    
+}
+.weather-info{
+    border-style:groove;
+}
