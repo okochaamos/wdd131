@@ -9,6 +9,7 @@ if(temperature > 50 && windSpeed > 4.8){
 }else{
     windChill = "N/A";
 }
+
 document.getElementById("wind-chill").innerHTML = `Windchill : ${Math.round(windChill)}°C`;
 
 

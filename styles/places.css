@@ -1,28 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
 body{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1 rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
 
 footer{
-    
-    margin: 1rem;
-    border: 5px;
-    padding: 5px;
+    min-width: 1300px;
+    height:180px;
+    justify-content: center;
+    border-style: groove;
    
     font-size: 2rem;
     background-color: green;
     color: white;
+    text-align: center;
+    
+    
     
 }
 
 header{
+    min-width: 1300px;
+    height:180px;
+    border-style: groove;
+
+    
     background-color: green;
-    color: white;
+    
+}
+h1{
+    margin-top: 70px;
+    font-size: 3rem;
+    color:white;
+}
+
+.weather-info{
+    border-style: groove;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.6rem;
+    height: 450px;
+    
+    
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr;
+    
+    align-items: center;
+      
 }
 .data{
     border-style:groove;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.6rem;
+    height: 400px;
+    
 }
-.weather-info{
+
+.zuma-rock{
+    grid-row: 1/2;
+    grid-column: 1/2;
     border-style: groove;
+    
+}
+
+.icon{
+    width: 200px;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+footer p{
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 2.5rem;
+
+}
+
+.data p{
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.weather-info p{
+    font-size: 1.6rem;
+    margin-top: 20px;
 }

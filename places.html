@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Fundamental - Okocha Amos Mba</title>
-    <link type="text/css" rel="stylesheet" media="screen and (min-width: 480px)" href="styles/places.css">
-    <link type="text/css" rel="stylesheet" media="screen and (min-width: 701px)" href="styles/places-large.css">
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/places.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 600px)" href="styles/places-large.css">
     <script src="scripts/places.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,12 +20,12 @@
 
     </header>
     <main>
-        <div class="zuma-rock">
-            <section>
-                <img src="images/zuma-rock.webp">
+        <figure class="zuma-rock">
+            
+            <img src="images/zuma-rock.webp">
 
-            </section>
-        </div>
+           
+        </figure>
 
         <div class="data">
 
@@ -44,8 +44,15 @@
         </div>
         <div class="weather-info">
 
+            <section>
 
-            <h2>Weather<img src="images/weather.webp"></h2>
+                <h2>Weather</h2>
+                <figure class="icon">
+                    <img src="images/weather-icon.svg">
+                </figure>
+            </section>
+            
+           
 
             <p id="temperature">Temperature: 27°C</p>
             <p id="condition">Condition: Sunny</p>

@@ -9,7 +9,7 @@ main{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    
+    min-width: 1300px;
 }
 
 
@@ -42,6 +42,12 @@ main{
     vertical-align: middle;
 
 }
+.icon img{
+    width:20px;
+    height: 20px;
+    grid-row: 1/2;
+    z-index: 2;
+}
 .data p{
     vertical-align: middle;
 }
@@ -49,6 +55,7 @@ main{
 .zuma-rock img{
     grid-column: 1/19;
     grid-row: 1/11;
+    min-width: 1250px;
 }
 
 .weather-info{
@@ -57,17 +64,22 @@ main{
     z-index: 1;
     padding-right: 10px;
     background-color: white;
-    
     vertical-align: middle;
+    display: grid;
+    grid-template-rows: 1fr, 5fr;
 
 }
-.weather-info h2{
+.weather-info section{
     background-color: green;
     color: white;
     align-items: center;
-    padding-bottom: 3px;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
 }
-
+.weather-info section h2{
+    padding-left: 40px;
+}
 footer{
     
     margin: 1rem;
@@ -77,6 +89,8 @@ footer{
     font-size: 2rem;
     background-color: green;
     min-width: 1300px;
+    color: white;
+
 
     
 }
@@ -93,6 +107,8 @@ header{
 
 h1{
     text-align: center;
+    color: white;
+    font-size: 3rem;
 
 }
 
