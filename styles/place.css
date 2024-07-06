@@ -1,3 +1,14 @@
+
+
+@media screen and (max-width: 600px) {
+    body { background-color: white;
+        }
+
+    }
+   
+
+
+
 .weather-info p::first-letter {
     color: green;
     
