@@ -94,6 +94,7 @@ main{
     grid-column: 1/2;
     border-style: groove;
     
+    
 }
 
 .icon{
@@ -120,4 +121,9 @@ h2{
     font-size: 1.6rem;
     margin-top: 20px;
 }
+:root {
+    align-content: center;
+    
+  }
+
 

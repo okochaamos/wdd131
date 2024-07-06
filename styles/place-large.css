@@ -121,6 +121,7 @@ h1{
 
 }
 
+
 .data{
     border-style:groove;
     
@@ -128,10 +129,7 @@ h1{
 .weather-info{
     border-style:groove;
 }
-.weather-info p::content{
-    vertical-align:middle;
-}
-
-.data p::content{
-    vertical-align:middle;
-}
+:root {
+    align-content: center;
+    
+  }
