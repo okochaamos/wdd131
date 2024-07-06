@@ -44,10 +44,12 @@ main{
     
 }
 
-.weather-info p{
-    vertical-align: middle;
+.weather-info p::first-letter {
+    color: green;
+    
+  }
 
-}
+
 .icon img{
     width:20px;
     height: 20px;

@@ -1,6 +1,11 @@
-:root{
-    background-color: white;
-}
+.weather-info p::first-letter {
+    color: green;
+    
+  }
+
+  .data p::first-letter{
+    color: green;
+  }
 
 
 
