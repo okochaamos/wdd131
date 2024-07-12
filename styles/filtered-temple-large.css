@@ -16,7 +16,7 @@ body{
     flex-wrap: nowrap;
     flex-wrap: wrap;
     overflow-x: auto;
-    font-size: 1.2rem;
+    font-size: 2rem;
     align-content: center;
     border-style: groove;
  }
