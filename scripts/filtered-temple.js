@@ -1,5 +1,5 @@
 const date = new Date(document.lastModified);
-document.getElementById("lastmod").innerHTML = `Last modified: ${date}`;
+document.getElementById("lastmod").innerHTML = `Last Modified: ${date}`;
 
 document.querySelector('.hamburger-button').addEventListener('click', function() {
     document.querySelector('.myLinks').style.display = 
@@ -126,14 +126,14 @@ const temples = [
 
 
 
-let bold = document.getElementById('bold');
+let firstHeading = document.getElementById('caption');
 let templeCards= document.getElementById('temple-cards');
 createTempleCards("Home");
 
 
 function createTempleCards(filter){
     templeCards.innerHTML = ""; 
-    bold.textContent = filter;   
+    firstHeading.textContent = filter;   
     let filteredTemples = temples;
 
     if (filter === 'Old') {

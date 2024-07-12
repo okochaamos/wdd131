@@ -1,8 +1,10 @@
 body{
+    
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1rem;
     background-color: white;
     color: black;
+    align-content: center;
 }
 
 .myLinks {
@@ -14,7 +16,7 @@ body{
     flex-wrap: nowrap;
     flex-wrap: wrap;
     overflow-x: auto;
-    font-size: 2rem;
+    font-size: 1.2rem;
     align-content: center;
     border-style: groove;
  }
@@ -24,8 +26,8 @@ body{
 
 .myLinks a {
     display: flex;
-    margin-left: 20px;
-    
+    margin-left: 10px;
+    margin-right: 15px;
     text-decoration: none;
     
     
@@ -41,11 +43,9 @@ nav {
         
         padding: 10px 20px;
         display: flex;
-        
-        
+              
         margin: 0 auto;
       
-        width: 1000px;
         display: flex;
         
         justify-content: space-between;
@@ -60,15 +60,17 @@ nav {
     
 .mylinks li {
         margin: 20px;
+        padding: 10px;
     }
     
 .myLinks a {
         text-decoration: none;
         color: white;
-        padding: 14px 20px;
+        padding: 10px 20px;
+        
         display: block;
         transition: background-color 0.3s;
-        padding: 14px 20px;
+        
         display: block;
     
     }
@@ -100,7 +102,6 @@ header{
     color: white;
     padding: 15px;
     font-size: 24px;
-    cursor: pointer;
     
     display:  block;
     font-size: 30px;
@@ -128,7 +129,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
     padding: 16px;
-    max-width: 1200px;
+    
     width: 100%;
     
 }
@@ -143,7 +144,7 @@ main{
 
 }
 .temple img {
-    width: 100%;
+    width : 300px;
     height: auto;
     display: block;
     margin-bottom: 16px;
@@ -158,9 +159,6 @@ main{
 
 
 
-img{
-    width : 300px;
-}
 h1{
     font-size: 3rem;
     color: white;
