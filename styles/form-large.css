@@ -58,7 +58,7 @@ nav ul li.active a {
 }
 
 .wf1 legend {
-    color: navy;
+    color: red;
 }
 
 .wf1 label {
@@ -72,8 +72,8 @@ nav ul li.active a {
 }
 
 .wf1 input[type="textarea"]{
-    background-color: lightblue;
-    height: 400px;
+    
+    height: 300px;
 }
 
 .wf1 input[type="radio"],

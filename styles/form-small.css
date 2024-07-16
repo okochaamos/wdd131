@@ -72,7 +72,7 @@ main {
 }
 
 .wf1 legend {
-    color: navy;
+    color: red;
 }
 
 .wf1 label {
@@ -110,7 +110,7 @@ main {
     
 }
 .wf1 input[type="textarea"]{
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
 
@@ -126,12 +126,13 @@ main {
 
 .button{
     
-    width: 300px;
+    width: 400px;
     color:white;
     margin-left: 12px;
     border-radius: 5px;
     background-color: green;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 
