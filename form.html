@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Product Review Form">
+<meta name="author" content="Okocha Amos Mba">
+<script src="scripts/form.js" defer></script>
+<link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/form-small.css">
+<link type="text/css" rel="stylesheet" media="screen and (min-width: 600px)" href="styles/form-large.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Designing Web Form </title>
+
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+
+
+
+
+
+
+<!-- STYLE SHEETS -->
+
+
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <h1>Product Review Form</h1>
+        
+    </header>
+        
+<!-- CONTENT HERE -->
+<main>
+    <form method="get" action="review.html" class="wf1">
+        
+        <fieldset>
+            <legend>Product Name</legend>
+            
+                <label for="productSelect">Choose a product:</label>
+                <select id="productSelect">
+                    <option value="" required selected>Select a product</option>
+                </select>
+                
+           
+
+        </fieldset>
+
+    
+        <fieldset class="myStar">
+            <legend>Overall Rating </legend>
+            <label ><input type="radio" name="rating" value="one-star">&#9733;</label>       
+            <label ><input type="radio" name="rating" value="two-star">&#9733; &#9733;</label>
+            <label ><input type="radio" name="rating" value="three-star">&#9733; &#9733; &#9733;</label>
+            <label ><input type="radio" name="rating" value="four-star">&#9733; &#9733; &#9733; &#9733;</label>
+            <label ><input type="radio" name="rating" value="five-star">&#9733; &#9733; &#9733; &#9733; &#9733;</label>
+
+            
+        
+          
+
+        </fieldset>
+
+
+        <fieldset>
+            <label > Date of Installation</label>
+            <label><input type="date" name="completeDate"></label>
+        </fieldset>
+
+        <fieldset>
+            <p>Which feature did you find useful in the product? it's 
+            (check all that apply)
+
+            </p>
+
+            <label ><input type="checkbox" name="durable" value="durable">Durability</label>
+            <label ><input type="checkbox" name="easy" value="easy">Ease of use</label>
+            <label ><input type="checkbox" name="performant" value="Performance">Performance</label>
+            <label ><input type="checkbox" name="design" value="Design">Design</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Written Review</legend>
+            <label ><input type="textarea" ></label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Name</legend>
+            <label ><input type="text"></label>
+
+        </fieldset>
+
+       
+        <input type="submit" value="Post Review" class="button">
+            
+    </form>
+        
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <p>&#169; 2024 &#9733; Okocha Amos Mba &#9733; Nigeria</p>
+    <p id="lastmod"></p>
+
+
+</footer>

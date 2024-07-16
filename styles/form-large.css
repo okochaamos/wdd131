@@ -1,0 +1,115 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 600px) {
+
+    header, nav, main, footer {
+        max-width: 600px;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+}
+
+
+
+/*----------- HEADER --------------*/
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+
+}
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid grey;
+}
+
+.wf1 legend {
+    color: navy;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+}
+
+.wf1 div{
+    color: navy;
+}
+
+.wf1 input[type="textarea"]{
+    background-color: lightblue;
+    height: 400px;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"]{
+    margin-right: 6px;
+}
+
+.wf1 input:required{
+    border-bottom: solid 8px red;
+
+}
+
+.wf1 input:required:valid{
+    border-bottom: solid 8px green;
+}
+
+ .myStar{
+    
+    display: flex;
+    
+}
+.wf1 img{
+    color: yellow;
+}
+
+
+
+.wf1 input[type="text"],
+.wf1 input[type="textarea"],
+.wf1 input[type="date"],
+.wf1 select{
+    width : 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.button{
+    width: 100%;
+    max-width: 400px;
+    color:white;
+    margin-left: 12px;
+    border-radius: 5px;
+    background-color: green;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.wf1{
+    font-size: 14px;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: navy;
+    padding: .5rem 2%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+    
+ /* end of media query */

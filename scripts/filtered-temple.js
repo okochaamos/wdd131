@@ -192,46 +192,11 @@ function createTempleCards(filter){
     
 }
   
-// document.getElementById("old").addEventListener("click", () => {
-//     const filteredTemples = temples.filter(temple => !temple.area >10000);
-//     createFilteredTempleCards(filteredTemples);
-// });
+{/* <label for="favcolor">Favorite Color</label> 
+<input type="color" list="colors" id="favcolor" name="favcolor"> 
 
-// function createFilteredTempleCards(filteredTemples) {
-//     const filteredTempleCards = document.getElementById("filtered-temple-cards");
-//     filteredTempleCards.innerHTML = ''; // Clear any existing content
-
-//     filteredTemples.forEach(temple => {
-//         let oldCard = document.createElement("div");
-//         oldCard.classList.add("filteredTemples");
-
-//         let oldCardHeading = document.createElement("h2");
-//         oldCardHeading.textContent = "Old Temples";
-
-//         let oldCardTempleName = document.createElement("h3");
-//         oldCardTempleName.innerHTML = temple.templeName;
-
-//         let oldCardLocation = document.createElement("p");
-//         oldCardLocation.innerHTML = `Location: ${temple.location}`;
-
-//         let oldCardDedicated = document.createElement("p");
-//         oldCardDedicated.innerHTML = `Dedicated: ${temple.dedicated}`;
-
-//         let oldCardArea = document.createElement("p");
-//         oldCardArea.innerHTML = `Area: ${temple.area}`;
-
-//         let img = document.createElement("img");
-//         img.setAttribute("src", temple.imageUrl);
-//         img.setAttribute("alt", `${temple.templeName} image`);
-//         img.setAttribute("loading", "lazy");
-
-//         oldCard.appendChild(oldCardHeading);
-//         oldCard.appendChild(oldCardTempleName);
-//         oldCard.appendChild(oldCardLocation);
-//         oldCard.appendChild(oldCardDedicated);
-//         oldCard.appendChild(oldCardArea);
-//         oldCard.appendChild(img);
-
-//         filteredTempleCards.appendChild(oldCard);
-//     });
-
+<datalist id="colors"> 
+<option value="#0000FF" label="blue"> 
+<option value="#008000" label="green"> 
+<option value="#ff0000" label="red"> 
+<option value="#663399" label="RebeccaPurple"> </datalist> */}
