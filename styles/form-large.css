@@ -26,7 +26,29 @@ header{
 
 
 /*----------- NAVIGATION --------------*/
-
+nav {
+    background-color: navy;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {border-bottom: solid 1px wheat;}
+nav ul li a {
+    display: flex;
+    background-color:navy;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    border-style: groove;
+}
+nav ul li.active a {
+    background-color: navy;
+    color: #fff;
+}
 
 
 /*----------- MAIN --------------*/

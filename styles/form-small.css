@@ -40,8 +40,8 @@ nav ul {
 }
 nav ul li {border-bottom: solid 1px wheat;}
 nav ul li a {
-    display: block;
-    background-color: blue;
+    display: flex;
+    background-color:navy;
     color: #eee;
     padding: .5rem 0;
     text-decoration: none;
@@ -52,6 +52,10 @@ nav ul li a {
 nav ul li.active a {
     background-color: navy;
     color: #fff;
+}
+nav a:hover{
+    background-color:gold;
+    color: white;
 }
 /*----------- MAIN --------------*/
 main {
