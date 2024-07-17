@@ -28,7 +28,7 @@
         <form method="get" action="review.html" class="wf1">
         
             <fieldset>
-                <legend>Product Name</legend>
+                <legend>Product Name*</legend>
             
                     <label for="productSelect">Choose a product:</label>
                     <select id="productSelect">
@@ -40,8 +40,8 @@
             </fieldset>
 
     
-            <fieldset class="myStar">
-                <legend>Overall Rating </legend>
+            <fieldset class="myStar" required>
+                <legend>Overall Rating* </legend>
                 <label ><input type="radio" name="rating" value="one-star">&#9733;</label>       
                 <label ><input type="radio" name="rating" value="two-star">&#9733; &#9733;</label>
                 <label ><input type="radio" name="rating" value="three-star">&#9733; &#9733; &#9733;</label>
