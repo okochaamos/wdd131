@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Product Review Form">
-<meta name="author" content="Okocha Amos Mba">
-<script src="scripts/form.js" defer></script>
-<link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/form-small.css">
-<link type="text/css" rel="stylesheet" media="screen and (min-width: 600px)" href="styles/form-large.css">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<title>Designing Web Form </title>
-
+    <meta charset="utf-8">
+    <meta name="description" content="Product Review Form">
+    <meta name="author" content="Okocha Amos Mba">
+    <title>Web Development Fundamental - Okocha Amos Mba</title>
+    <script src="scripts/form.js" defer></script>
+    <link type="text/css" rel="stylesheet" media="screen and (max-width: 600px)" href="styles/form-small.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 600px)" href="styles/form-large.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 
 </head>
 
@@ -22,71 +24,71 @@
     </header>
         
 <!-- CONTENT HERE -->
-<main>
-    <form method="get" action="review.html" class="wf1">
+    <main>
+        <form method="get" action="review.html" class="wf1">
         
-        <fieldset>
-            <legend>Product Name</legend>
+            <fieldset>
+                <legend>Product Name</legend>
             
-                <label for="productSelect">Choose a product:</label>
-                <select id="productSelect">
-                    <option value="product.id" required selected>Select a product</option>
-                </select>
+                    <label for="productSelect">Choose a product:</label>
+                    <select id="productSelect">
+                        <option value="product.id" required selected>Select a product</option>
+                    </select>
                 
            
 
-        </fieldset>
+            </fieldset>
 
     
-        <fieldset class="myStar">
-            <legend>Overall Rating </legend>
-            <label ><input type="radio" name="rating" value="one-star">&#9733;</label>       
-            <label ><input type="radio" name="rating" value="two-star">&#9733; &#9733;</label>
-            <label ><input type="radio" name="rating" value="three-star">&#9733; &#9733; &#9733;</label>
-            <label ><input type="radio" name="rating" value="four-star">&#9733; &#9733; &#9733; &#9733;</label>
-            <label ><input type="radio" name="rating" value="five-star">&#9733; &#9733; &#9733; &#9733; &#9733;</label>
+            <fieldset class="myStar">
+                <legend>Overall Rating </legend>
+                <label ><input type="radio" name="rating" value="one-star">&#9733;</label>       
+                <label ><input type="radio" name="rating" value="two-star">&#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="three-star">&#9733; &#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="four-star">&#9733; &#9733; &#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="five-star">&#9733; &#9733; &#9733; &#9733; &#9733;</label>
 
             
         
           
 
-        </fieldset>
+            </fieldset>
 
 
-        <fieldset>
-            <label > Date of Installation</label>
-            <label><input type="date" name="completeDate"></label>
-        </fieldset>
+            <fieldset>
+                <label > Date of Installation</label>
+                <label><input type="date" name="completeDate"></label>
+            </fieldset>
 
-        <fieldset>
-            <p>Which feature did you find useful in the product? it's 
-            (check all that apply)
+            <fieldset>
+                <p>Which feature did you find useful in the product? it's 
+                (check all that apply)
 
-            </p>
+                </p>
 
-            <label ><input type="checkbox" name="durable" value="durable">Durability</label>
-            <label ><input type="checkbox" name="easy" value="easy">Ease of use</label>
-            <label ><input type="checkbox" name="performant" value="Performance">Performance</label>
-            <label ><input type="checkbox" name="design" value="Design">Design</label>
-        </fieldset>
+                <label ><input type="checkbox" name="durable" value="durable">Durability</label>
+                <label ><input type="checkbox" name="easy" value="easy">Ease of use</label>
+                <label ><input type="checkbox" name="performant" value="Performance">Performance</label>
+                <label ><input type="checkbox" name="design" value="Design">Design</label>
+            </fieldset>
 
-        <fieldset>
-            <legend>Written Review</legend>
-            <label ><input type="textarea" ></label>
-            
-        </fieldset>
+            <fieldset>
+                <legend>Written Review</legend>
+                <label ><input type="textarea" ></label>
+                
+            </fieldset>
 
-        <fieldset>
-            <legend>Your Name</legend>
-            <label ><input type="text"></label>
+            <fieldset>
+                <legend>Your Name</legend>
+                <label ><input type="text"></label>
 
-        </fieldset>
+            </fieldset>
 
-       
-        <input type="submit" value="Post Review" class="button">
-            
-    </form>
         
+            <input type="submit" value="Post Review" class="button">
+                
+        </form>
+            
 
           
         
