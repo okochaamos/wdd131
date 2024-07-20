@@ -19,7 +19,7 @@ nav ul li{
 
 }
 
-div.myLinks {
+div{
     text-align: center;
     display: flex;
 }
