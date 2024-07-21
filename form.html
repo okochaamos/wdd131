@@ -30,9 +30,9 @@
             <fieldset>
                 <legend>Product Name*</legend>
             
-                    <label for="productSelect">Choose a product:</label>
-                    <select id="productSelect">
-                        <option value="product.id" required selected>Select a product</option>
+                    <label for="productSelect" >Choose a product:</label>
+                    <select id="productSelect" selected required>
+                        <option value="product.id"  >Select a product</option>
                     </select>
                 
            
@@ -42,11 +42,11 @@
     
             <fieldset class="myStar" required>
                 <legend>Overall Rating* </legend>
-                <label ><input type="radio" name="rating" value="one-star">&#9733;</label>       
-                <label ><input type="radio" name="rating" value="two-star">&#9733; &#9733;</label>
-                <label ><input type="radio" name="rating" value="three-star">&#9733; &#9733; &#9733;</label>
-                <label ><input type="radio" name="rating" value="four-star">&#9733; &#9733; &#9733; &#9733;</label>
-                <label ><input type="radio" name="rating" value="five-star">&#9733; &#9733; &#9733; &#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="one-star" required>&#9733;</label>       
+                <label ><input type="radio" name="rating" value="two-star" required>&#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="three-star" required>&#9733; &#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="four-star" required>&#9733; &#9733; &#9733; &#9733;</label>
+                <label ><input type="radio" name="rating" value="five-star" required>&#9733; &#9733; &#9733; &#9733; &#9733;</label>
 
             
         
@@ -56,8 +56,8 @@
 
 
             <fieldset>
-                <label > Date of Installation</label>
-                <label><input type="date" name="completeDate"></label>
+                <label > Date of Installation*</label>
+                <label><input type="date" name="completeDate" required></label>
             </fieldset>
 
             <fieldset>
@@ -74,7 +74,7 @@
 
             <fieldset>
                 <legend>Written Review</legend>
-                <label ><input type="textarea" ></label>
+                <label ><input type="text" id="textarea"></label>
                 
             </fieldset>
 

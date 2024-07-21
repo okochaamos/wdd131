@@ -72,7 +72,7 @@ main {
 }
 
 .wf1 legend {
-    color: red;
+    color: black;
 }
 
 .wf1 label {
@@ -128,7 +128,7 @@ main {
     color:white;
     margin-left: 12px;
     border-radius: 5px;
-    background-color: green;
+    background-color: black;
     margin-bottom: 30px;
     margin-left: 20px;
 }

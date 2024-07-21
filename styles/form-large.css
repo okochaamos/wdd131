@@ -58,7 +58,7 @@ nav ul li.active a {
 }
 
 .wf1 legend {
-    color: red;
+    color: black;
 }
 
 .wf1 label {
@@ -71,7 +71,12 @@ nav ul li.active a {
     color: navy;
 }
 
-.wf1 input[type="textarea"]{
+.wf1 select:required{
+    border-bottom: solid 8px red;
+
+}
+
+#textarea{
     
     height: 300px;
 }
@@ -85,6 +90,11 @@ nav ul li.active a {
     border-bottom: solid 8px red;
 
 }
+.wf1 input:required:valid{
+    border-bottom: solid 8px green;
+
+}
+
 
 .wf1 input:required:valid{
     border-bottom: solid 8px green;
@@ -116,7 +126,7 @@ nav ul li.active a {
     color:white;
     margin-left: 12px;
     border-radius: 5px;
-    background-color: green;
+    background-color: black;
     margin-bottom: 30px;
     font-size: 16px;
 }
