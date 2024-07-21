@@ -32,7 +32,7 @@
             
                     <label for="productSelect" >Choose a product:</label>
                     <select id="productSelect" required>
-                        <option value="product.id" >Select a product</option>
+                        <option value="product.id" selected disabled hidden >Select a product</option>
                     </select>
                 
            
@@ -40,8 +40,8 @@
             </fieldset>
 
     
-            <fieldset  >
-                <legend>Overall Rating* </legend>
+            <fieldset id="myStar"  >
+                <legend >Overall Rating* </legend>
                 <label ><input type="radio" name="rating" value="one-star" required>&#9733;</label>       
                 <label ><input type="radio" name="rating" value="two-star" required>&#9733; &#9733;</label>
                 <label ><input type="radio" name="rating" value="three-star" required>&#9733; &#9733; &#9733;</label>
@@ -74,7 +74,7 @@
 
             <fieldset>
                 <legend>Written Review</legend>
-                <label ><input type="text" id="textarea"></label>
+                <textarea id="textarea"></textarea>
                 
             </fieldset>
 

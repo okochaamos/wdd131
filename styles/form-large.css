@@ -77,7 +77,8 @@ nav ul li.active a {
 }
 
 #textarea{
-    
+    width : 100%;
+    max-width: 400px;
     height: 300px;
 }
 
@@ -100,9 +101,10 @@ nav ul li.active a {
     border-bottom: solid 8px green;
 }
 
- .myStar{
+ #myStar{
     
     display: flex;
+    flex-direction: row;
     
 }
 .wf1 img{
