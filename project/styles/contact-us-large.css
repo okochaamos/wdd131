@@ -1,0 +1,115 @@
+body{
+    
+    font-family: "Joti One", "Ubuntu";
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    align-content: center;
+}
+
+
+nav ul li{
+    display: flex;
+   
+    color: white;
+    margin-left: 70px;
+    align-content: center;
+    
+
+}
+
+
+
+nav ul li a{
+    color: white;
+    display: flex;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    
+}
+
+
+h1, h2, footer{
+    font-family: joti One;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p{
+    font-family: ubuntu;
+    text-align: center;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    font-size: 3rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.clusters{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: ubuntu;
+    
+}
+.clusters select:required{
+    border-bottom: solid 8px red;
+
+}
+ .clusters input:required:valid{
+    border-bottom: solid 8px green;
+
+}
+
+footer p{
+    font-family: joti One;
+}
+
+.clusterslabel {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+}
+
+.clusters input{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 40px;
+}
+.button{
+    margin-left: 25px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+.clusters select{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 40px;
+}
