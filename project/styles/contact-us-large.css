@@ -93,23 +93,28 @@ footer p{
     max-width: 400px;
     height: 100%;
     max-height: 40px;
+    border-radius: 5px ;
 }
 .button{
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 40px;
     background-color: black;
     color: white;
-    height: 40px;
+    height: 80px;
+    border-radius:5px ;
+    font-size: medium;
 }
 
 textarea{
     width: 100%;
     max-width: 400px;
     height: 300px;
+    border-radius:5px ;
 }
 .clusters select{
     width: 100%;
     max-width: 400px;
     height: 100%;
     max-height: 40px;
+    border-radius:5px ;
 }
