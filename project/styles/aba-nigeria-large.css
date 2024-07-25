@@ -9,12 +9,41 @@ body{
     align-content: center;
 }
 
-
-nav ul li{
-    display: flex;
-   
+.hamburger-button {
+    width: 100%;
+    max-width: 70px;
+    padding-left: 50px;
+    background-color: navy;
     color: white;
-    margin-left: 70px;
+    padding: 15px;
+    font-size: 24px;
+    margin-left: 50px;
+    display:  flex;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.myLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    
+    display: block;
+    transition: background-color 0.3s;
+    
+    display: block;
+
+}
+
+.myLinks a:hover {
+    background-color:navy;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    margin-left: 20px;
     align-content: center;
     
 
@@ -27,14 +56,12 @@ div{
 
 nav ul li a{
     color: white;
-    display: flex;
-    width: 300px;
+    
+    width: 100px;
     line-height: 30px;
-    text-align: center;
     
     
-    
-    
+   
 }
 
 header{

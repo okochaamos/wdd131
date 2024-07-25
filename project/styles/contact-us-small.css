@@ -7,16 +7,47 @@ body{
     align-content: center;
 }
 
+.hamburger-button {
+    width: 100%;
+    max-width: 70px;
+    padding-left: 50px;
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    margin-left: 50px;
+    display:  flex;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.myLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    
+    display: block;
+    transition: background-color 0.3s;
+    
+    display: block;
+
+}
+
+.myLinks a:hover {
+    background-color:navy;
+    color: red;
+}
 
 nav ul li{
-    display: flex;
+    display: block;
    
     color: white;
-    margin-left: 70px;
-    align-content: center;
+    margin-left: 20px;
+    
     
 
 }
+
 
 
 
@@ -112,14 +143,14 @@ footer p{
     padding: 4px;
 }
 .button{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 40px;
     background-color: black;
     color: white;
     height: 80px;
     border-radius:5px ;
     font-size: medium;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 

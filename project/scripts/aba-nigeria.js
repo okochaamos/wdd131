@@ -1,4 +1,7 @@
 
+
+
+
 const date = new Date(document.lastModified);
 document.getElementById("lastmod").innerHTML = `Last Modified: ${date}`;
 
@@ -22,12 +25,12 @@ const motives = [
     },
     {
       id: "ac-2000",
-      reason: "Buy Good",
+      reason: "Buy Goods",
       averageRating: 4.7,
     },
     {
       id: "jj-1969",
-      reason: "Entertainment",
+      reason: "Sports",
       averageRating: 4.0,
     }
   ];
@@ -46,3 +49,8 @@ const motives = [
         motiveSelect.appendChild(option);
     });
 });
+
+document.querySelector('.hamburger-button').addEventListener('click', function() {
+  document.querySelector('.myLinks').style.display = 
+  (document.querySelector('.myLinks').style.display == 'none') ? 'flex' : 'none';
+  });
