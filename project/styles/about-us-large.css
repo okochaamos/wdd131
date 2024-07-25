@@ -1,0 +1,137 @@
+body{
+    
+    font-family: "Joti One", "Ubuntu";
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    align-content: center;
+}
+
+
+nav ul li{
+    display: flex;
+   
+    color: white;
+    margin-left: 70px;
+    align-content: center;
+    
+
+}
+
+
+
+nav ul li a{
+    color: white;
+    display: flex;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    
+}
+
+
+h1, h2, footer{
+    font-family: joti One;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p{
+    font-family: ubuntu;
+    text-align: center;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    font-size: 3rem;
+}
+
+main{
+    display: grid;
+   
+    grid-template-rows: .25fr 2fr;
+}
+
+h2{
+    grid-row: 1/2;
+    
+    text-align: center
+}
+.page{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.enyimba{
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-content: top;
+
+}
+
+.market{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-content: top;
+
+}
+.religion{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-content: top;
+}
+.sports{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+h3{
+    text-align: center;
+}
+footer p{
+    font-family: joti One;
+}
+
+
+
+img{
+    width: 100%;
+    max-width: 400px;
+    max-height: 250px;
+
+}
