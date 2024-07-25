@@ -43,7 +43,7 @@ header{
 h1, h2, footer{
     font-family: joti One;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 p{
@@ -54,7 +54,7 @@ p{
 footer{
     background-color: navy;
     color: white;
-    font-size: 3rem;
+    font-size: 1.3rem;
 }
 
 main{
@@ -73,6 +73,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    line-height: 1.6 ;
     
 }
 

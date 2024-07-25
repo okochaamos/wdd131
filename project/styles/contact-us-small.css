@@ -43,7 +43,7 @@ header{
 h1, h2, footer{
     font-family: joti One;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 p{
@@ -59,24 +59,31 @@ footer{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
     grid-template-rows: 0.25fr 1fr;
 }
+h2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    background-color: navy;
+}
+.clusters{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: ubuntu;
 
+}
 h2{
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: navy;
     color: white;
-    font-size: 2.5rem;
 }
 
-.clusters{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-family: ubuntu;
-    
-}
 .clusters select:required{
     border-bottom: solid 8px red;
 
@@ -102,7 +109,7 @@ footer p{
     height: 100%;
     max-height: 40px;
     border-radius: 5px ;
-    padding: 5px;
+    padding: 4px;
 }
 .button{
     margin-left: 20px;
@@ -124,9 +131,8 @@ textarea{
 }
 .clusters select{
     width: 100%;
-    max-width: 415px;
+    max-width: 400px;
     height: 100%;
     max-height: 40px;
     border-radius:5px ;
-    padding: 5px;
 }
