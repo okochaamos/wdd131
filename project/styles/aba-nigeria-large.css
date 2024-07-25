@@ -139,7 +139,7 @@ h2{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-content: top;
+    align-content:inherit;
     line-height: 1.6 ;
 }
 
@@ -153,7 +153,7 @@ h2{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-content: top;
+    align-content: inherit;
     line-height: 1.6 ;
 }
 .sect3{
@@ -165,7 +165,7 @@ h2{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-content: center;
+    align-content: inherit;
     line-height: 1.6 ;
 }
 
